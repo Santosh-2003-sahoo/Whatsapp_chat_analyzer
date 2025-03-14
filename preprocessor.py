@@ -7,6 +7,7 @@ def preprocess(data):
     pattern = "\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{1,2}\s\w+\s-\s"
     # All msgs we have
     message = re.split(pattern, data)[1:]
+    print(message)
     # All date we have
     dates = re.findall(pattern, data)
     # Split Date and Time
