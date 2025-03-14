@@ -131,4 +131,4 @@ if uploaded_file is not None:
         st.text(' ')
         st.text(' ')
 
-        st.text('by - Isha Garg')
+        st.text('copyright © 2021 - 2022, All rights reserved to Santosh Sahoo.')
